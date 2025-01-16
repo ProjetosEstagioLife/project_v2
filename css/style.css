@@ -11,8 +11,8 @@
 
 /*Configurações padrão*/
 body{
-    font-family: "Comfortaa", serif;
-    background: url("../Midias/background_menu.png") no-repeat top;
+    font-family: "Comfortaa", sans-serif;
+    background: #ec7a23 url("../Midias/background_menu.png") no-repeat top center;
     background-size: cover;
     overflow: hidden;
 }
@@ -54,11 +54,11 @@ body{
 /*Tela de login*/
 #loginWindow{
     position: absolute;
-    top: 12%;
-    left: calc(50% - 20vw);
+    top: calc(50% - 270px);
+    left: calc(50% - 300px);
     background-color: #ffffff46;
-    width: 40vw;
-    height: 75vh;
+    width: 600px;
+    height: 540px;
     border: 3px solid #000;
     border-radius: 50px;
     backdrop-filter: blur(10px);
